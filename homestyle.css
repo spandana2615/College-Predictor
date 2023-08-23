@@ -1,0 +1,47 @@
+*{
+    margin:0ex;
+    padding:0%;
+    font-family:Century Gothic;
+}
+button{
+    background-color:antiquewhite;
+    display:block;
+    font-size:50px;
+    margin:auto;
+    color:black;
+    border-radius:10px;
+    width: 120px;
+    text-align:center ;
+    border:3.5px solid rgb(12, 11, 11);
+}
+header
+{
+    background-image:url(https://www.besonline.in/college_images/college-predictor.jpg);
+    height:100vh;
+    margin-inline: 10px;
+    background-size:cover;
+    background-position:center;
+}
+ul{
+     float:right;
+     list-style-type:none;
+     margin-top:50px;
+}
+ul li{
+    display:inline-block;
+}
+ul li a{
+    text-decoration:none;
+    color:rgb(21, 20, 20);
+    padding:8px 20px;
+    border:3.5px solid rgb(14, 13, 13);
+    transition:0.6s ease;
+}
+ul li a:hover{
+    background-color:#fff;
+    color:#000;
+}
+ul li.active a{
+    background-color:#fff;
+    color:#000;
+}
